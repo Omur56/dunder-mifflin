@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+
+}
+
+.header {
+    display: flex;
+    height: 130px;
+    background: #1B54DD;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    text-align: center;
+    color: #FFFF;
+    text-wrap: nowrap;
+    margin: 0 auto;
+
+}
+
+.logo div:nth-child(1) {
+    font-size: 32px;
+    line-height: 25.63px;
+    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+
+
+
+.logo div:nth-child(2) {
+    font-size: 9.21px;
+    font-weight: 400;
+    line-height: 9.21px;
+    letter-spacing: 1.64px;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 32px 0;
+}
+
+.title {
+    height: 88px;
+    font-size: 36px;
+    line-height: 43.57px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.btn {
+    display: block;
+    width: 110px;
+    height: 41px;
+    margin: 32px auto;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #1B54DD;
+    border: none;
+
+}
+
+.teamsPicture {
+    width: 100%;
+    object-fit: cover;
+}
+
+.myPhilosophy {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 16.94px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+}
+
+footer {
+    padding: 26px auto;
+    background: #E8E8E8;
+}
+
+.web {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16.94px;
+    font-weight: 400;
+}
+
+.addres {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
